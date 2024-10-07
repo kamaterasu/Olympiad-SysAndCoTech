@@ -1,0 +1,53 @@
+body {
+  color: #fff;
+  background-color: #18001d;
+  font-size: 18px;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Wix Madefor Display', sans-serif;
+}
+ 
+body::-webkit-scrollbar-track {
+  background: #0d010f;
+}
+ 
+ body::-webkit-scrollbar-thumb {
+  background: rgb(128, 0, 211);
+} 
+body::-webkit-scrollbar {
+  width: auto;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 1.3rem;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: #797979;
+  transition: all 0.5s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #222224;
+}
+
+::-webkit-scrollbar-track {
+  background: #f9f9f9;
+}
+
+@media screen and (min-width: 1440px){
+  body {
+    font-size: 20px;
+}
+}
+
+@media screen and (min-width: 1280px){
+  body {
+    font-size: 19px;
+}
+}
